@@ -1,4 +1,3 @@
-
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -52,6 +51,9 @@
     color: white;
     padding: 13px 25px;
     border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition:  0.2s;
     
 }
 
@@ -62,6 +64,9 @@
     padding: 13px 25px;
     border: none;
     margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition:  0.2s;
 }
 
 .btn:hover{
@@ -94,6 +99,77 @@
     text-align: center;
     height: 200px;
     width: 1000px;
-;
 
+
+}
+
+
+.parent-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f8ff;
+  padding: 150px 0;
+  gap: 500px;
+}
+
+.hero-left {
+  max-width: 500px;
+  margin-right: 40px;
+}
+
+.hero-left h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 18px;
+  color: #232233;
+}
+
+.hero-sub {
+  font-size: 22px;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 28px;
+}
+
+.btn3 {
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 25px;
+  font-size: 16px;
+
+  cursor: pointer;
+  transition:  0.2s;
+  margin-top: 25px;
+}
+
+
+
+.btn3:hover {
+  background-color: #3531b7;
+}
+
+.hero-image {
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 32px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+}
+
+body{
+    background-color: #F5F8FF;
+}
+
+
+.card{
+    background-color: #4E47FF;
+    background-color: rgba(78, 71, 255, 0.1);
 }
